@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+*{
+	background-color: rgba(204,214,205,255);
+}
+.table :tr>td :nth-child(odd){
+	width: 200px;
+}
+
+.table :tr>td :nth-child(even){
+	width: 600px;
+}
